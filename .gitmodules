@@ -1,0 +1,3 @@
+[submodule "Submodules/BrailleIO"]
+	path = Submodules/BrailleIO
+	url = https://github.com/TUD-INF-IAI-MCI/BrailleIO.git
