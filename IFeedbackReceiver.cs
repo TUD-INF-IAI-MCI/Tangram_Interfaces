@@ -22,11 +22,10 @@ namespace tud.mci.tangram.TangramLector
         /// <param name="text">The feedback text</param>
         void ReceiveTextualNotification(String text);
 
-
         /// <summary>
         /// Receives an auditory feedback - e.g. text to output as text to speech.
         /// </summary>
-        /// <param name="audio">The text that should be interpretetd for an auditory feedback.</param>
+        /// <param name="audio">The text that should be interpreted for an auditory feedback.</param>
         void ReceiveAuditoryFeedback(String audio);
 
     }

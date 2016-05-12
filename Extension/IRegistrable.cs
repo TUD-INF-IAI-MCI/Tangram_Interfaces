@@ -12,7 +12,7 @@ namespace tud.mci.tangram.TangramLector.Extension
         /// Registers the instance to the given object.
         /// </summary>
         /// <param name="obj">The object to register.</param>
-        /// <returns><c>true</c> if the initialization was successfull, othewise <c>false</c>.</returns>
+        /// <returns><c>true</c> if the initialization was successful, otherwise <c>false</c>.</returns>
         bool RegisterTo(Object obj);
 
     }
