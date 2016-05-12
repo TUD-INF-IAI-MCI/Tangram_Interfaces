@@ -13,8 +13,14 @@ Simply add it as reference. **Attention:** Watch out the needed reference from a
 
 ### Submodules needed
 
-- [BrailleIO]( https://github.com/TUD-INF-IAI-MCI/BrailleIO) : `BrailleIO_Interfaces`
+- [BrailleIO](https://github.com/TUD-INF-IAI-MCI/BrailleIO) : `BrailleIO_Interfaces`
 
+
+## The beautiful OrderedConcurrentDictionary
+
+In this project the class `OrderedConcurrentDictionary` is implemented, which allows to set up thread-save `ConcurrentDictionary` with the ability to be sorted. 
+
+The default sorting is by the adding timestamp of the `KeyValuePair`. But a specialized [`IComparer`](https://msdn.microsoft.com/de-de/library/system.collections.icomparer(v=vs.110).aspx) have to be given within the constructor to determine the sorting of elements.
 
 ## You want to know more?
 
