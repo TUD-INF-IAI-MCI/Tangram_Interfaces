@@ -11,9 +11,9 @@ Share Interface definitions with other external projects to allow for extensibil
 
 Simply add it as reference. **Attention:** Watch out the needed reference from a submodule!
 
-### Submodules needed
+### References needed (dll)
 
-- [BrailleIO](https://github.com/TUD-INF-IAI-MCI/BrailleIO) : `BrailleIO_Interfaces`
+- [BrailleIO](https://github.com/TUD-INF-IAI-MCI/BrailleIO) : `BrailleIO_Interfaces` is included as a dll in the lib folder. Should be replaced by newer versions if necessary.
 
 
 ## The beautiful OrderedConcurrentDictionary

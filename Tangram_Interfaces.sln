@@ -5,10 +5,6 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tangram_Interfaces", "Tangram_Interfaces.csproj", "{C4724649-0889-491A-BFBD-CF9BF7BA2E1E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrailleIO", "BrailleIO", "{94CBD896-1112-4ECD-B998-8F2BD02A3FBF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrailleIO_Interfaces", "Submodules\BrailleIO\BrailleIO_Interfaces\BrailleIO_Interfaces.csproj", "{168EC2F2-7E4A-493A-AB4A-9FB1B45DAB64}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,15 +15,8 @@ Global
 		{C4724649-0889-491A-BFBD-CF9BF7BA2E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4724649-0889-491A-BFBD-CF9BF7BA2E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4724649-0889-491A-BFBD-CF9BF7BA2E1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{168EC2F2-7E4A-493A-AB4A-9FB1B45DAB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{168EC2F2-7E4A-493A-AB4A-9FB1B45DAB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{168EC2F2-7E4A-493A-AB4A-9FB1B45DAB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{168EC2F2-7E4A-493A-AB4A-9FB1B45DAB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{168EC2F2-7E4A-493A-AB4A-9FB1B45DAB64} = {94CBD896-1112-4ECD-B998-8F2BD02A3FBF}
 	EndGlobalSection
 EndGlobal

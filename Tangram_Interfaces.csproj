@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BrailleIO_Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\BrailleIO_Interfaces.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,10 +56,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Submodules\BrailleIO\BrailleIO_Interfaces\BrailleIO_Interfaces.csproj">
-      <Project>{168ec2f2-7e4a-493a-ab4a-9fb1b45dab64}</Project>
-      <Name>BrailleIO_Interfaces</Name>
-    </ProjectReference>
+    <Content Include="lib\BrailleIO_Interfaces.dll" />
+    <Content Include="lib\BrailleIO_Interfaces.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
