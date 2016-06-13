@@ -35,7 +35,7 @@ namespace tud.mci.tangram.TangramLector.Extension
         /// <returns>
         /// 	<c>true</c> if the specified adapter is a monitor; otherwise, <c>false</c>.
         /// </returns>
-        bool IsMonitor(out List<Type> monitoringAdapter);
+        bool IsMonitor(out List<String> monitoringAdapter);
 
         /// <summary>
         /// Monitors the adapter.
