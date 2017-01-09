@@ -1,8 +1,8 @@
-﻿using System;
+﻿using BrailleIO.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using BrailleIO.Interface;
 
 namespace tud.mci.tangram.TangramLector.Extension
 {
