@@ -74,7 +74,7 @@ namespace tud.mci.tangram.TangramLector
                 {
                     return (T)Convert.ChangeType(value, typeof(T));
                 }
-                catch (InvalidCastException e) { }
+                catch (InvalidCastException) { }
             }
 
             return default(T);
